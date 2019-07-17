@@ -1,0 +1,191 @@
+/*폰트 사이즈가 안보임.*/
+
+@import '../../../styles/utils';
+
+.header{
+    height : 1080px; 
+    width: 2560px; 
+
+    .background{  
+        height : 1080px; 
+        width: 100%;
+        background-image: url(../picture/test.jpg);
+        background-size: cover;
+        position: relative;
+        alt: "mainpage_background";
+    
+        .upper{
+            height : 137px; 
+            width: 2560px;
+            display: flex;
+            
+
+            .mainlogo{
+                margin-top: 87px;
+                margin-left: 258px;
+            
+                width: 308px;
+                height: 50px;
+                cursor: pointer;
+            }
+
+            .menu-list{
+                display: flex; //이게 없으면 memu, news 글씨가 겹침.
+                margin-top: 87px;
+                margin-right: 386px;
+                margin-left: auto;
+                margin-top: auto;
+                
+
+                .menu-item{
+                        display: flex;
+                        width: 81px;
+                        height: 20px;
+                        font-family: NanumSquareEB;
+                        font-size: 1.467rem;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 0.0918rem;
+                        letter-spacing: -0.13‬rem;
+                        text-align: left;
+                        color: #ffffff; 
+                        align-items: center;
+                        justify-content: center; //aling, justify는 가운데 정렬. 나중에 필요하면 justify는 flex-start로 바꾸기
+                        cursor: pointer; // 메뉴 아이템에 마우스를 올렸을 때 마우스모양이 손으로 바뀜.
+                        padding-bottom: 7px;
+
+
+                        &:hover{ //메뉴 아이템에 마우스를 올렸을 때
+                            color:  #36b1bf;
+                            border-bottom: 2px solid  #36b1bf;
+                            
+                        }
+                    
+                    }
+            
+                .menu-item + .menu-item{  
+                    border-left: 2px solid #ffffff ;
+                    margin-left: 10px;
+                    padding-left: 10px;
+                }
+            
+            }
+        }
+    }
+
+    .middle1{
+        height : 545px; 
+        width: 2560px;
+        display: flex;
+        
+
+        .title-box{ 
+            
+            width: 900px;
+            height: 360px;
+            margin: 0 auto; //가운데 정렬
+            border-width: 10px; border-style: solid; border-color : #ffffff;  //background 바꾼 뒤 white로 바꾸기.
+
+            //내부 타이틀 세로 가운데 정렬
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            //title-box를 middle1의 가장 아래쪽으로 보내기
+            margin-top: auto;
+
+            .subtitle{
+                
+                height: 70px;
+                width: 900px;
+                font-family: NanumSquareRoundB;
+                font-size: 70px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 48px;
+                margin-bottom: auto;
+
+            }
+
+            .title{
+                height: 154px;
+                width: 900px;
+                font-family: wigglehangeul;
+                font-size: 150px;
+                color:#ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 48px;
+                margin-top:auto;
+            }
+        
+        }
+
+    }
+
+    .middle2{
+        height: 162px;
+        width: 2560px;
+
+        //내부 타이틀 세로 가운데 정렬
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .script{
+            height: 50px;
+            width: 360px;
+            //폰트
+            font-family: NanumGothic;
+            font-size: 35px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: -2.45px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+    }
+
+    .lower{
+        width: 2560px;
+        height: 236px;
+        display: flex;
+        object-fit: contain;
+
+        //내부 타이틀 세로 가운데 정렬
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: auto;
+        
+         
+        .store{
+            width: 193.5px;
+            height: 60px;
+            margin-bottom: auto;
+            cursor: pointer;
+        }
+       
+
+        //두 스토어 사이의 중간 여백
+        .store+ .store{
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+    }
+}
+
