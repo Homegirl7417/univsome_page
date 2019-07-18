@@ -1,6 +1,9 @@
 /*폰트 사이즈가 안보임.*/
-
+//menu-item font가 확인이 안됨. 
 @import '../../../styles/utils';
+@import '../../../styles/font.css';
+
+
 
 .header{
     height : 1080px; 
@@ -37,11 +40,11 @@
                 margin-top: auto;
                 
 
-                .menu-item{
+                .menu-item{ //font 확인이 안됨. 
                         display: flex;
                         width: 81px;
                         height: 20px;
-                        font-family: NanumSquareEB;
+                        font-family: "NanumSquareRoundB";
                         font-size: 1.467rem;
                         font-weight: normal;
                         font-style: normal;
@@ -82,8 +85,8 @@
 
         .title-box{ 
             
-            width: 900px;
-            height: 360px;
+            width: 880px;
+            height: 340px;
             margin: 0 auto; //가운데 정렬
             border-width: 10px; border-style: solid; border-color : #ffffff;  //background 바꾼 뒤 white로 바꾸기.
 
@@ -98,35 +101,34 @@
 
             .subtitle{
                 
-                height: 70px;
-                width: 900px;
-                font-family: NanumSquareRoundB;
-                font-size: 70px;
-                font-weight: normal;
-                font-style: normal;
-                font-stretch: normal;
+                height: 66px;
+                width: 597px;
+                font-family: "NanumSquareRoundB";
+                font-size: 68px; //원래 font-size=70인데 70으로 하면 한줄에 다 안써져서 줄임.  
                 line-height: normal;
                 letter-spacing: normal;
                 text-align: center;
                 color: #ffffff;
-                display: flex;
+                //display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 48px;
+                margin-top: 38px;
                 margin-bottom: auto;
 
             }
 
             .title{
-                height: 154px;
-                width: 900px;
-                font-family: wigglehangeul;
+                height: 135px;
+                width: 597px;
+
+                //font
+                font-family: "wigglehangeul";
                 font-size: 150px;
                 color:#ffffff;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 48px;
+                margin-bottom: 38px;
                 margin-top:auto;
             }
         
@@ -144,14 +146,11 @@
         justify-content: center;
 
         .script{
-            height: 50px;
-            width: 360px;
-            //폰트
-            font-family: NanumGothic;
-            font-size: 35px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
+            height: 34px;
+            width: 341px;
+            //font
+            font-family: "NanumGothic";
+            font-size: 34px;
             line-height: normal;
             letter-spacing: -2.45px;
             text-align: center;

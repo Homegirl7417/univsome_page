@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './PageTemplate.scss';
 import classNames from 'classnames/bind';
 import Header from '../Header';
+import Content from '../Content';
 import Footer from '../Footer';
 
 const cx = classNames.bind(styles);
@@ -15,6 +16,7 @@ const PageTemplate = ({children}) => {
         <div>
             {children}
             <Header />
+            <Content />
             <Footer />
         </div>
     );

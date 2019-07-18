@@ -1,0 +1,54 @@
+/*font를 모아놓은 파일*/
+@font-face{ 
+    font-family: "NanumSquareR";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("./fonts/NanumSquareR.eot");
+    src: url("./fonts/NanumSquareR.woff") format("woff"),
+        url("./fonts/NanumSquareR.woff2") format("woff2"),
+        url("./fonts/NanumSquareR.ttf") format("truetype");
+}
+
+@font-face{ 
+    font-family: "NanumSquareEB";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("./fonts/NanumSquareEB.eot");
+    src: url("./fonts/NanumSquareEB.woff") format("woff"),
+        url("./fonts/NanumSquareEB.woff2") format("woff2"),
+        url("./fonts/NanumSquareEB.ttf") format("truetype");
+}
+
+@font-face{ 
+    font-family: "NanumSquareRoundB";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("./fonts/NanumSquareRoundB.eot");
+    src: url("./fonts/NanumSquareRoundB.woff") format("woff"),
+        url("./fonts/NanumSquareRoundB.woff2") format("woff2"),
+        url("./fonts/NanumSquareRoundB.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "wigglehangeul";
+    src: url("./fonts/wigglehangeul.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "NanumGothic";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("./fonts/NanumGothic.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "GodoM";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("./fonts/GodoM.ttf") format("truetype");
+}

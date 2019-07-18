@@ -1,0 +1,57 @@
+@import '../../../styles/utils';
+@import '../../../styles/font.css';
+
+.content{
+    width: 2560px;
+    height: 2470px;
+    background-color: var(--white);
+
+    margin-top: 368px;
+    margin-bottom:auto; 
+    
+    
+    .box{
+        width: 2148px;
+        height: 1813px;
+        margin-bottom: auto;
+        margin-top: 368px;
+        margin: 0 auto;
+        
+        display: flex;
+        flex-direction: row;
+
+        .center{
+            width: 902px;
+            height: 1813px;
+
+            //내용 가운데 정렬
+            margin: 0 auto;
+
+            .device{
+            width: 902px;
+            height: 1813px;
+            object-fit: contain;
+            //내용 가운데 정렬
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+        }
+
+        .left{
+            width: 633px;
+            height: 1813px;
+            margin-right: 128px;
+    
+        }
+    
+        .right{
+            width: 613px;
+            height: 1813px;
+            margin-left: 128px;
+    
+        }
+    }
+
+    
+}

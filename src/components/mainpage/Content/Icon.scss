@@ -1,0 +1,62 @@
+@import '../../../styles/utils';
+@import '../../../styles/font.css';
+
+.icon{
+    width: 505px;
+    height: 468px;
+    margin-top: 110px;
+     
+    .circle{
+        height: 166px;
+        width: 166px;
+
+        //circle 이미지 설정
+        height: 166px;
+        width: 166px;
+        background-image: url(../picture/circle.png);
+        //background-size: cover;
+        //position: relative;
+        
+        margin: auto;
+        display: flex;
+
+        .picture{
+            //내부 이미지 가운데 정렬
+            margin: auto;
+
+        }
+    }
+
+    .title{
+            font-family: "GodoM";
+            font-size: 44.5px;
+            line-height: 1.09;
+            letter-spacing: normal;
+            text-align: left;
+            color: #4e525d;
+            margin-top: 69px;
+            margin-bottom: 62px;
+
+            //title 가운데 정렬.
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+
+                
+    }
+
+    .subtitle{
+        font-family: "GodoM";
+        font-size: 30px;
+        line-height: 1.63;
+        letter-spacing: normal;
+        text-align: center;
+        color: #4e525d;
+
+        //subtitle 가운데 정렬.
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
