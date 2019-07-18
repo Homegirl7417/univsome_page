@@ -12,9 +12,9 @@
     .background{  
         height : 1080px; 
         width: 100%;
-        background-image: url(../picture/test.jpg);
-        background-size: cover;
-        position: relative;
+        background-image: url(../picture/test.png);
+        //background-size: cover;
+        //position: relative;
         alt: "mainpage_background";
     
         .upper{
@@ -23,9 +23,11 @@
             display: flex;
             
 
-            .mainlogo{
+            .mainlogo1{
                 margin-top: 87px;
                 margin-left: 258px;
+                margin-top: auto;
+                margin-right: auto;
             
                 width: 308px;
                 height: 50px;
@@ -44,7 +46,7 @@
                         display: flex;
                         width: 81px;
                         height: 20px;
-                        font-family: "NanumSquareRoundB";
+                        font-family: "NanumSquareEB";
                         font-size: 1.467rem;
                         font-weight: normal;
                         font-style: normal;
@@ -60,7 +62,7 @@
 
 
                         &:hover{ //메뉴 아이템에 마우스를 올렸을 때
-                            color:  #36b1bf;
+                            color:  #97a8aa;
                             border-bottom: 2px solid  #36b1bf;
                             
                         }
@@ -177,6 +179,7 @@
             height: 60px;
             margin-bottom: auto;
             cursor: pointer;
+            border-radius: 7px;
         }
        
 

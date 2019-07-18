@@ -3,14 +3,15 @@
 제플린에서 footer. background 컬러가 안보임. 
 upper의 margin left,right 비율을 홈페이지 마크 삽입 후 재조정해야함.(마크가 없어서 임의로 비율을 맟춤)
 media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할 것.
+Footer의 배경색 코드 물어보기. open-color를 썼는데 디자인 보다 밝게 나옴.
 */
 
 @import '../../../styles/utils';
 @import '../../../styles/font.css';
 
-.mainlogo{
-    margin-top: 4.4375rem;
-    margin-left: 26.4375rem;
+.mainlogo2{
+    margin-top: 71px;
+    margin-left: 423px;
 
     width: 310px;
     height: 51px;
@@ -18,8 +19,8 @@ media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할
 
 .footer{
     background: $oc-cyan-9;
-    height : 28.125rem; 
-    width: 160rem;
+    height : 450px; 
+    width: 2560px;
 
 
     //내용 가운데 정렬
@@ -30,14 +31,14 @@ media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할
 
     .upper{
         display: flex;
-        height: 9.0625‬r‬em;
+        height: 122px;
         //width: 160rem;
         //flex-direction: row; //같은 upper면 왼쪽에서 오른쪽으로 위치.
 
 
         .font{
             display: flex;
-            margin-top: 5.0625rem;
+            margin-top: 71px;
             font-family: "NanumSquareEB";
             font-size: 32px;
             line-height: 1.47;
@@ -48,81 +49,28 @@ media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할
             justify-content: center; //aling, justify는 가운데 정렬. 나중에 필요하면 justify는 flex-start로 바꾸기.
 
             &.index1{
-                margin-left: 22rem; //아직 홈페이지 마크가 안나와서 임의로 맞춘 비율. 이건 향후 홈페이지 마크 삽입하면 새로 비율 맞추기.
-                margin-right: 14.3rem;//아직 홈페이지 마크가 안나와서 임의로 맞춘 비율. 이건 향후 홈페이지 마크 삽입하면 새로 비율 맞추기.
-                width: 5.1875rem;
+                margin-left: 445px; //아직 홈페이지 마크가 안나와서 임의로 맞춘 비율. 이건 향후 홈페이지 마크 삽입하면 새로 비율 맞추기.
 
             }
             &.index2{
-                width: 3.25rem;
+                margin-left:248px;
             }
             &.index3{
-                margin-left: 15.8125rem;
-                width: 3.375‬rem;
+                margin-left: 253px;
+                
             }
         }
 
     }
-    /*test 전 원본.
-    .middle{
-        display: flex; //같은 middle이면 왼쪽에서 오른쪽으로 위치.
-        height: 17.1875r‬em;
-        //width: 160rem;
-        margin-top: 1.5rem;
-        margin-bottom: 5.4375‬‬rem;
-        padding-bottom: 5.4375‬‬rem;
-        
-        
-
-        .font{
-            //margin-top: 1.5rem;
-            //margin-bottom: 5.4375‬‬rem;
-            display: flex;
-            flex-direction: column;
-            
-            
-            font-family: NanumSquareR;
-            font-size: 1rem;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 0.1225rem;
-            letter-spacing: -0.0975‬rem;
-            text-align: left;
-            color: #ffffff;
-            align-items: flex-start;
-            justify-content: flex-start; //aling, justify는 왼쪽, 맨위 정렬. 
-        
-            &.info{
-                width: 37.1875‬rem;
-                height: 10.3125rem;
-                margin-left: 26.0625rem;
-                margin-right: 10.4375rem;
-                margin-bottom: 5.4375‬‬rem;
-                padding-bottom: 5.4375‬‬rem;
-            }
-
-            &.list1{
-                width: 10.125‬rem;
-                height: 10.25‬rem;
-                //margin-left: 10.4375‬rem; //margin-left가 작동을 안해서 info의 margin-right로 바꿈.
-            }
-
-            &.list2{
-                width: 6.1875rem;
-                margin-left: 10.5rem;
-            }
-        }
-    }*/
        
     .middle{
         display: flex; //같은 middle이면 왼쪽에서 오른쪽으로 위치.
-        height: 10.3125r‬em; //height가 설정이 안먹어서 middle과 lower 부분 사이의 간격은 lower의 font. margin-top 에 정리.
-        
+        height: 252px; 
+        margin-top: 23px;
+
         .font{
             display: flex;
             flex-direction: column;
-            margin-top: 1.4375rem;
             font-family: "NanumSquareR";
             font-size: 24px;
             line-height: 1.96px;
@@ -133,26 +81,24 @@ media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할
             justify-content: flex-start; //aling, justify는 왼쪽, 맨위 정렬. 
         
             &.info{
-                width: 37.1875‬rem;
-                //height: 10.3125rem;
-                margin-left: 26.0625rem;
-                margin-right: 10.4375rem; 
-                
+                width: 595px;
+                padding-left: 417px;    
             }
 
             &.list1{
-                width: 10.125‬‬rem;
-                //height: 10.25‬rem;
-                //margin-left: 10.4375‬rem; //margin-left가 작동을 안해서 info의 margin-right로 바꿈.
+                width: 162px‬‬;
+                
+                margin-left: 167px; 
+                //margin-left가 작동을 안해서 info의 margin-right로 바꿈.
+                
                 &:hover{
                     cursor: pointer;
                 }
             }
 
             &.list2{
-                width: 6.1875rem;
-                margin-left: 10.5rem;
-                margin-right: 12.8rem;
+                width: 99px;
+                margin-left: 168px;
                 &:hover{
                     cursor: pointer;
                 }
@@ -161,13 +107,19 @@ media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할
 
         .link{
             display: flex;
-            //margin-top: 3rem; //비율 다시 확인. 임의로 어울리는 비율 넣음.
-            //margin-bottom: 6.25rem;
+            width: 337px;
+            height: 82px;
+            margin-left: 197px;
+            margin-top: 26px;
             
             .link_style{
                 height: 82px;
-                width: 67px;
+                width: 85px;
                 cursor: pointer;
+            }
+
+            .link_style + .link_style {
+                padding-left: 42px;
             }
         }
 
@@ -175,28 +127,19 @@ media를 이용해 (p.200) 화면 크기에 따른 보이는 정도를 추가할
     }
 
     .lower{
-        height: 8.75rem;
-        //width: 160rem;
+        height: 53px;
+        display:flex;
+        align-items: flex-start;
+        justify-content: center;
         
-        .font{
-        margin-left: 66.6875rem;
-        margin-top: 5.4375rem;
-        display: flex;
-        font-family: NanumSquareR;
-        font-size: 0.7rem;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 0.1225rem;
-        letter-spacing: -0.0975‬rem;
+        .copyright{
+        font-family: "NanumSquareR";
+        font-size: 16px;
+        line-height: 1.96px;
+        letter-spacing: -1px;
         text-align: left;
         color: #ffffff;
-        align-items: flex-start;
-        justify-content: flex-start; //aling, justify는 왼쪽, 맨위 정렬. 
 
-            &.copyright{
-                width:28rem;
-            }
         }
     }
 }

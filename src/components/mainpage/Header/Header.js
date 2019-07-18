@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styles from './Header.scss';
 import classNames from 'classnames/bind';
-import mainlogo from '../picture/univsome.png';
+import mainlogo1 from '../picture/univsome.png';
 import store1 from '../picture/store1.png';
 import store2 from '../picture/store2.png';
 
@@ -16,7 +16,7 @@ class Header extends Component {
             <div className={cx('header')}>
                 <div className ={cx('background')}>
                     <div className={cx('upper')}>
-                        <img src={mainlogo} alt="univsome_logo" className={cx('mainlogo')} />
+                        <img src={mainlogo1} alt="univsome_logo" className={cx('mainlogo1')} />
 
                         <div className={cx('menu-list')}>
                             <div className={cx('menu-item')}>MENU</div>

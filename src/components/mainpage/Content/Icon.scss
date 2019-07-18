@@ -19,6 +19,13 @@
         
         margin: auto;
         display: flex;
+        
+
+        //마우스 가져다 대면 색반전을 주고 싶은데 아직 구현 안됨.
+        &:hover{
+            
+            
+        }
 
         .picture{
             //내부 이미지 가운데 정렬

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styles from './Footer.scss';
 import classNames from 'classnames/bind';
-import mainlogo from '../picture/univsome.png';
-import link1 from '../picture/facebook.png';
+import mainlogo2 from '../picture/univsome.png';
+import link1 from '../picture/link1.png';
 import link2 from '../picture/fmessage.png';
 import link3 from '../picture/insta.png';
 
@@ -36,7 +36,7 @@ class Footer extends Component {
             <div className={cx('footer')}>
                    
                 <div className={cx('upper')}>
-                    <img src={mainlogo} alt="univsome_logo" className={cx('mainlogo')}/>
+                    <img src={mainlogo2} alt="univsome_logo" className={cx('mainlogo2')}/>
                     <div className={cx('font','index1')}>
                         서비스
                     </div>
@@ -60,15 +60,15 @@ class Footer extends Component {
                         {list2}
                     </div>
                     <div className={cx('link')}>
-                        <img scr={link1} alt="facebook_link" className={cx('link_style')} />
-                        <img scr={link2} alt="facebook_message_link" className={cx('link_style')} />
-                        <img scr={link3} alt="instagram_link" className={cx('link_style')} />
+                        <img src={link1} alt="facebook_link" className={cx('link_style')} />
+                        <img src={link2} alt="facebook_message_link" className={cx('link_style')} />
+                        <img src={link3} alt="instagram_link" className={cx('link_style')} />
                     </div>
                 
                 </div>
                 
                 <div className={cx('lower')}>
-                    <div className={cx('font','copyright')}>
+                    <div className={cx('copyright')}>
                         <p>COPYRIGHT ⓒ 2019 Univsome Co., Ltd. All rights reserved.</p> 
                     </div>
                 </div>
